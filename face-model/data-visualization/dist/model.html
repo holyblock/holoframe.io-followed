@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hologram</title>
+  </head>
+  <body>
+    <h2>Model visualization (ONNX inference)</h2>
+    Data start location: <input type="range" min="0" max="100" value="0" class="slider" id="loc-slider" style="width: 256px">
+    <br>
+    Playback speed: <input type="range" min="1" max="100" value="100" class="slider" id="speed-slider" style="width: 128px">
+    <br>
+    <textarea id="textpad" style="height: 128px; width: 256px"></textarea>
+    <br>
+    <canvas id="frames" style="width:224px; height:224px"></canvas>
+    <canvas id="avatar" style="width:224px; height:224px"></canvas>
+    <textarea id="prediction" style="height: 256px; width: 324px"></textarea>
+    <br>
+    <button type="button" id="prev-btn">prev</button>
+    <button type="button" id="play-btn">play</button>
+    <button type="button" id="next-btn">next</button>
+    <br>
+    <script src="model.js"></script>
+  </body>
+</html>

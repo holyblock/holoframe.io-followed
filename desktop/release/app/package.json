@@ -1,0 +1,28 @@
+{
+  "name": "holocam",
+  "version": "0.1.15",
+  "description": "Hologram's virtual camera and desktop application enables you to video chat and stream as your virtual characters.",
+  "main": "./dist/main/main.js",
+  "author": {
+    "name": "Hologram Labs",
+    "email": "gm@hologram.xyz",
+    "url": "https://github.com/hologramxyz/holocam"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.ts",
+    "postinstall": "npm run electron-rebuild && npm run link-modules"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.7.8",
+    "electron-deeplink": "^1.0.9",
+    "magic-sdk": "^8.1.1",
+    "moralis": "^2.4.0",
+    "moralis-v1": "^1.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fullscreen-crossbrowser": "^1.1.0",
+    "web3-token": "^0.2.7"
+  },
+  "license": "MIT"
+}

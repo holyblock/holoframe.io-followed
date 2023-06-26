@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Cool Cat #307",
+    "project": "coolcats",
+    "description": "Cool Cat #307, but alive!",
+    "type": "live2d",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/coolcat407.zip",
+    "image": "https://arweave.net/b6ALccGZGpTAW0ZyMy75BHCMDLIBKRd9CaMig4pYdsw"
+  },
+  {
+    "name": "Doodles #8697",
+    "project": "doodles",
+    "description": "Doodle #8697, but alive! Animated by Nekokoro in collaboration with Hologram. Become this NFT on video via hologram.xyz",
+    "type": "live2d",
+    "animation_url": "https://arweave.net/BFfI-75IhMh8h-XKszpqhsh-DBtKZWSIUfpwSmQhqvs/doodle8697.mp4",
+    "model_url": "https://arweave.net/BFfI-75IhMh8h-XKszpqhsh-DBtKZWSIUfpwSmQhqvs/doodle8697.zip",
+    "image": "https://arweave.net/BFfI-75IhMh8h-XKszpqhsh-DBtKZWSIUfpwSmQhqvs/doodle8697.png"
+  },
+  {
+    "name": "Deadfellaz #1601",
+    "project": "deadfellaz",
+    "description": "Deadfellaz #1601, but alive! Animated by Nekokoro in collaboration with Hologram. Become this NFT on video via hologram.xyz",
+    "type": "live2d",
+    "animation_url": "",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/deadfellaz1601_V2.zip",
+    "image": "https://rolling-filters.s3.amazonaws.com/images/deadfellaz1601.png"
+  },
+  {
+    "name": "Milady",
+    "project": "milady",
+    "description": "Milady, but alive! Become this NFT on video via hologram.xyz",
+    "type": "live2d",
+    "animation_url": "",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/Milady_3.zip",
+    "image": "https://rolling-filters.s3.amazonaws.com/images/Milady_3.png"
+  },
+  {
+    "name": "Crypto Coven (Delphinus Axis)",
+    "project": "cryptocoven",
+    "description": "Delphinus axis, but alive! Animated by Husain in collaboration with Hologram. Become this NFT on video via hologram.xyz",
+    "type": "live2d",
+    "animation_url": "",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/guitong.zip",
+    "image": "https://rolling-filters.s3.amazonaws.com/images/delphinus.png"
+  }
+]

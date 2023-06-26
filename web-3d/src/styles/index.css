@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Tachyon';
+  src: url(../../public/fonts/Tachyon/Tachyon_W00_Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Thin.ttf)
+    format('truetype');
+  font-weight: 100 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Light.ttf)
+    format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Regular.ttf)
+    format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Medium.ttf)
+    format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Semibold.ttf)
+    format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Bold.ttf)
+    format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Black.ttf)
+    format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url(../../public/fonts/PPMonumentExtended/PPMonumentExtended-Heavy.otf)
+    format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #__next {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02111a;
+    background-image: url(../../public/img/studio-background-2d.svg);
+    background-position: center;
+    background-size: contain;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 198, 198, 0.12) 0%,
+      rgba(0, 198, 198, 0.0264) 100%
+    );
+    border: 1px solid rgba(123, 192, 238, 0.15);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0feab5;
+    border: 3px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 9999px;
+  }
+}
+
+.left-panel {
+  transform: perspective(500px) rotateY(3deg);
+}
+
+.right-panel {
+  transform: perspective(500px) rotateY(-3deg);
+}
+
+.scrollbar-gutter {
+  scrollbar-gutter: stable;
+}
+
+.scrollbar-gutter-centered {
+  scrollbar-gutter: stable both-edges;
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('../../../assets/fonts/ClashGrotesk-Semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Gustavo';
+  src: url('../../../assets/fonts/Gustavo-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'TWK Lausanne';
+  src: url('../../../assets/fonts/TWKLausannePan-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url('../../../assets/fonts/PPMonumentExtended-Bold.woff2') format('woff2');
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "CoolCats-407",
+    "project": "coolcats",
+    "description": "Cool Cat #407, but alive!",
+    "type": "live2d",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/coolcat407.zip",
+    "image": "https://arweave.net/b6ALccGZGpTAW0ZyMy75BHCMDLIBKRd9CaMig4pYdsw"
+  },
+  {
+    "name": "Doodles-3590",
+    "project": "doodles",
+    "description": "Doodles #3590, but alive!",
+    "type": "live2d",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/doodle3590.zip",
+    "image": "https://lh3.googleusercontent.com/mZicy0WsDh52Abt43Z_NVqpjhZ03E29GGm22IEf3hiigtbyO1E5wKNVAXLB-PMDBYDiZ-uV4uOktQNxTQomU8KVzdYMftcHg5jDfoQ=w600"
+  },
+  {
+    "name": "Hologram Mutant Ape #4849",
+    "project": "mutantape",
+    "description": "Mutant Ape #4849, but alive! Animated by Nekokoro in collaboration with Hologram. Become this NFT on video via hologram.xyz",
+    "type": "live2d",
+    "animation_url": "https://arweave.net/TSX9iVuH0zml5C_84MwOVMvhjUCyDtP8799rWOTwxYg/mutantape4849.mp4",
+    "model_url": "https://arweave.net/TSX9iVuH0zml5C_84MwOVMvhjUCyDtP8799rWOTwxYg/mutantape4849.zip",
+    "image": "https://arweave.net/TSX9iVuH0zml5C_84MwOVMvhjUCyDtP8799rWOTwxYg/mutantape4849.png"
+  },
+  {
+    "name": "Holo",
+    "description": "A test VRM model for Hologram",
+    "type": "3d",
+    "format": "vrm",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/3d/holo.vrm",
+    "image": "https://rolling-filters.s3.amazonaws.com/images/holo.png"
+  }
+]

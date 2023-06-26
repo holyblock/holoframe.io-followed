@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Clash Grotesk';
+  src: url('https://hologramxyz.s3.amazonaws.com/assets/fonts/ClashGrotesk-Semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Gustavo';
+  src: url('https://hologramxyz.s3.amazonaws.com/assets/fonts/Gustavo-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'TWK Lausanne';
+  src: url('https://hologramxyz.s3.amazonaws.com/assets/fonts/TWKLausannePan-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'PPMonumentExtended';
+  src: url('https://hologramxyz.s3.amazonaws.com/assets/fonts/PPMonumentExtended-Bold.woff2') format('woff2');
+}

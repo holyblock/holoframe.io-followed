@@ -1,0 +1,45 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tony Wen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.7.18",
+    "@types/uuid": "^8.3.4",
+    "@types/ws": "^8.5.3",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.11.0",
+    "@ffmpeg/ffmpeg": "^0.11.5",
+    "@google-cloud/firestore": "^6.4.1",
+    "aws-sdk": "^2.1223.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.2.0",
+    "multer": "^1.4.5-lts.1",
+    "p-queue": "6.6.2",
+    "uuid": "^9.0.0",
+    "ws": "^8.8.1"
+  },
+  "scripts": {
+    "eslint": "eslint src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "node --experimental-wasm-threads dist/index.js"
+  }
+}

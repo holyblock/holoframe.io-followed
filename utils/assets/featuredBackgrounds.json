@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Anime Background 1",
+    "description": "An anime background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background1.png"
+  },
+  {
+    "name": "Anime Background 2",
+    "description": "A cyberpunk anime background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background2.jpg"
+  },
+  {
+    "name": "Retro Background 1",
+    "description": "A retro background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/Background3.jpg"
+  },
+  {
+    "name": "Retro Background 2",
+    "description": "A retro background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background4.jpeg"
+  },
+  {
+    "name": "ETH Background",
+    "description": "Ethereum background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background5.jpg"
+  },
+  {
+    "name": "Gainzy Background",
+    "description": "Gainzy background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background6.jpeg"
+  },
+  {
+    "name": "Pepe Background",
+    "description": "Pepe background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background7.jpg"
+  },
+  {
+    "name": "Pepe Background 2",
+    "description": "Pepe background 2",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background9.jpg"
+  },
+  {
+    "name": "Chamath Background",
+    "description": "Chamath background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background8.jpg"
+  },
+  {
+    "name": "Wotjek Background",
+    "description": "Wotjek background",
+    "image": "https://hologramxyz.s3.amazonaws.com/backgrounds/background11.jpg"
+  }
+]

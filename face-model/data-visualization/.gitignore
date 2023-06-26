@@ -1,0 +1,4 @@
+dist/*.js.map
+dist/*.js
+dist/data
+*.glb

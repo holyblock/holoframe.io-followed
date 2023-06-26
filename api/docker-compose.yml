@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  api:
+    build:
+      context: .
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+    environment:
+      - PORT=8001
+      - TOKENPROOF_APP_ID=${TOKENPROOF_APP_ID}
+      - TOKENPROOF_API_KEY=${TOKENPROOF_API_KEY}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - GOOGLE_PROJECT_ID=${GOOGLE_PROJECT_ID}
+      - GOOGLE_CLIENT_EMAIL=${GOOGLE_CLIENT_EMAIL}
+      - GOOGLE_PRIVATE_KEY=${GOOGLE_PRIVATE_KEY}
+    volumes:
+      - ./logs:/logs
+    command: 'dist/index.js'
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    volumes:
+      - ./src/config/nginx:/etc/nginx/conf.d
+      - ./src/config/certbot/conf:/etc/letsencrypt
+      - ./src/config/certbot/www:/var/www/certbot
+    ports:
+      - "80:80"
+      - "443:443"
+    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+    depends_on:
+      - api
+  certbot:
+    image: certbot/certbot
+    restart: unless-stopped
+    volumes:
+      - ./src/config/certbot/conf:/etc/letsencrypt
+      - ./src/config/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"

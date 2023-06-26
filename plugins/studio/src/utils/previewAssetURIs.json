@@ -1,0 +1,33 @@
+[
+  {
+    "name": "CoolCats-407",
+    "project": "coolcats",
+    "description": "Cool Cat #407, but alive!",
+    "type": "live2d",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/coolcat407.zip",
+    "image": "https://arweave.net/b6ALccGZGpTAW0ZyMy75BHCMDLIBKRd9CaMig4pYdsw"
+  },
+  {
+    "name": "Doodles-3590",
+    "project": "doodles",
+    "description": "Doodles #3590, but alive!",
+    "type": "live2d",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/doodle3590.zip",
+    "image": "https://lh3.googleusercontent.com/mZicy0WsDh52Abt43Z_NVqpjhZ03E29GGm22IEf3hiigtbyO1E5wKNVAXLB-PMDBYDiZ-uV4uOktQNxTQomU8KVzdYMftcHg5jDfoQ=w600"
+  },
+  {
+    "name": "Shizuku",
+    "description": "A test Live2D model for Hologram",
+    "type": "live2d",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/live2d/shizuku.zip",
+    "image": "https://rolling-filters.s3.amazonaws.com/images/shizuku.png"
+  },
+  {
+    "name": "Holo",
+    "description": "A test VRM model for Hologram",
+    "type": "3d",
+    "format": "vrm",
+    "model_url": "https://rolling-filters.s3.amazonaws.com/3d/holo.vrm",
+    "image": "https://rolling-filters.s3.amazonaws.com/images/holo.png"
+  }
+]

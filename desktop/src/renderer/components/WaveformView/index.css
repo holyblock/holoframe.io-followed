@@ -1,0 +1,6 @@
+.overview-container {
+  line-height: 0;
+  height: 64px;
+  background-color: #919191;
+  width: calc(100% - 64px);
+}

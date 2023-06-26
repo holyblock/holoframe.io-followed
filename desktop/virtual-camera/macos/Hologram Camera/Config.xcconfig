@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  Hologram Camera
+//
+//  Created by Tong Pow on 5/5/22.
+//  Copyright © 2022 Hologram Labs. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+OTHER_CODE_SIGN_FLAGS = --timestamp

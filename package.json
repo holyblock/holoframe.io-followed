@@ -1,0 +1,51 @@
+{
+  "name": "@hologramxyz/core",
+  "version": "1.0.0",
+  "description": "Core monorepo for Hologram containing code for frontend, extension, contracts, plugins, face models, etc.",
+  "main": "index.js",
+  "repository": "https://github.com/hologramxyz/core.git",
+  "author": "Tong Pow <tong@hologram.xyz>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build-extension": "yarn workspace @hologramxyz/extension build",
+    "start-extension": "yarn workspace @hologramxyz/extension start",
+    "deploy-extension": "yarn workspace @hologramxyz/extension deploy",
+    "dev-web": "yarn workspace @hologramxyz/web dev",
+    "build-web": "yarn workspace @hologramxyz/web build",
+    "start-web": "yarn workspace @hologramxyz/web start",
+    "lint-web": "yarn workspace @hologramxyz/web lint",
+    "upload-asset-folder": "yarn workspace @hologramxyz/contracts upload-asset-folder",
+    "upload-asset-file": "yarn workspace @hologramxyz/contracts upload-asset-file",
+    "upload-uri": "yarn workspace @hologramxyz/contracts upload-uri",
+    "chain": "yarn workspace @hologramxyz/contracts chain",
+    "fork": "yarn workspace @hologramxyz/contracts fork",
+    "node": "yarn workspace @hologramxyz/contracts chain",
+    "test-contracts": "yarn workspace @hologramxyz/contracts test",
+    "compile": "yarn workspace @hologramxyz/contracts compile",
+    "deploy-contracts": "yarn workspace @hologramxyz/contracts deploy",
+    "watch": "yarn workspace @hologramxyz/contracts watch",
+    "accounts": "yarn workspace @hologramxyz/contracts accounts",
+    "balance": "yarn workspace @hologramxyz/contracts balance",
+    "send": "yarn workspace @hologramxyz/contracts send",
+    "generate": "yarn workspace @hologramxyz/contracts generate",
+    "account": "yarn workspace @hologramxyz/contracts account",
+    "mineContractAddress": "cd packages/contracts && npx hardhat mineContractAddress",
+    "wallet": "cd packages/contracts && npx hardhat wallet",
+    "fundedwallet": "cd packages/contracts && npx hardhat fundedwallet",
+    "flatten": "cd packages/contracts && npx hbuardhat flatten",
+    "clean": "cd packages/contracts && npx hardhat clean",
+    "mint-honorary": "yarn workspace @hologramxyz/contracts mint-honorary",
+    "create-collection": "yarn workspace @hologramxyz/contracts create-collection",
+    "build-face-data-vis": "yarn workspace @hologramxyz/face-model-data-vis build",
+    "start-face-data-vis": "yarn workspace @hologramxyz/face-model-data-vis start"
+  },
+  "workspaces": {
+    "packages": [
+      "contracts",
+      "extension", 
+      "face-model/data-visualization",
+      "web"
+    ]
+  }
+}

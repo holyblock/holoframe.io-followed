@@ -1,0 +1,27 @@
+{
+  "name": "example",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "react-app-polyfill": "^1.0.0"
+  },
+  "alias": {
+    "react": "../node_modules/react",
+    "react-dom": "../node_modules/react-dom/profiling",
+    "scheduler/tracing": "../node_modules/scheduler/tracing-profiling",
+    "querystring": false
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.8.4",
+    "buffer": "^6.0.3",
+    "parcel": "^2.0.0",
+    "querystring-es3": "^0.2.1",
+    "typescript": "^3.4.5"
+  }
+}
